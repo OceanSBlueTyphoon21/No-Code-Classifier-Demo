@@ -8,6 +8,7 @@ This is a test of Google's Teachable Machine Project:
 
 - Sound Classification
 - Pose Classification
-  - Controlling MS Teams using pose estimations.
+  - Controlling Discord Call using pose estimations.
+  - Toggling Mute, Toggling Video, 
   
 - Embedded Systems 
