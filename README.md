@@ -7,6 +7,9 @@ This is a test of Google's Teachable Machine Project:
 
 
 - Sound Classification
+  - Can recognize the following: "Hey Computer", "cat", "dog", "up", "down", "left", "right", and the open string G on a ukulele
+  - {effects and results, also spectrogram aspect, and mic settings, distance, low amount of sample, and duration is broken up into small sound segments}
+ 
 - Pose Classification
   - Controlling Discord Call using pose estimations.
   - Toggling Mute, Toggling Video, 
