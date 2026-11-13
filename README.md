@@ -10,4 +10,6 @@ This is a test of Google's Teachable Machine Project:
   - Can recognize the following: "Hey Computer", "cat", "dog", "up", "down", "left", "right", and the open string G on a ukulele.
   - Sound classification in Teachable Machine is actually using image classification on Spectrograms; mic gain and recording settings matter (also during testing); distance also has an effect on the accuracy of the classification. TM's recording of the sound sample splits up the length into separate, small sound segments of spectrograms. The samples were lower than an image classifier but sufficient to recognize and predict sounds or audio fairly accurately.
   
-- Embedded Systems 
+- Embedded Systems
+  - This sound classifier model was created using Teachable Machine's sound classifier. The model was trained to recognize the phrase "Hey Pi".
+  - This model was then deployed to a Raspberry Pi 4 model B and would light the onboard LED for 5 seconds and then turn off.
