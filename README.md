@@ -13,3 +13,4 @@ This is a test of Google's Teachable Machine Project:
 - Embedded Systems
   - This sound classifier model was created using Teachable Machine's sound classifier. The model was trained to recognize the phrase "Hey Pi".
   - This model was then deployed to a Raspberry Pi 4 model B and would light the onboard LED for 5 seconds and then turn off.
+  - When running the application for this web AI model, it will struggle to catch the entire trigger phrase or message. This will lower the confidence score and may not trigger a server request to the raspberry Pi 4. Additionally, the program operates using a specified window of time to capture the phrase being said, the phrase will not always be captured at the correct time intervals when doesn't trigger the a request. Overall it responds fairly well to the phrase "Hey Pi"
